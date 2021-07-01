@@ -1,6 +1,7 @@
 NAME=demineur
 FLAGS=-Werror -Wall -Wextra -o play -I include -L lib -l SDL2-2.0.0
 
+
 all: $(NAME)
 
 $(NAME):
